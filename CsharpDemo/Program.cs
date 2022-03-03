@@ -1,6 +1,18 @@
-﻿using CsharpDemo.Common;
+﻿using CsharpDemo;
+using CsharpDemo.Common;
 using CsharpDemo.Model;
 using Newtonsoft.Json;
+
+
+
+#region Linq
+
+var list=LinqHelper.UnionData();
+
+Console.ReadKey();
+#endregion
+
+
 
 string jsonstr = "";
 jsonstr += "{" +
